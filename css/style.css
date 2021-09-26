@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    background-color: rgba(245, 245, 245, 0.8);
+    color:hsl(234, 12%, 34%); 
 }
 
 h1, h2 {
@@ -76,7 +76,6 @@ h1, h2 {
     }
     .card {
         width: 350px;
-        position: absolute;
     }
 
     .intro-title {
@@ -90,12 +89,22 @@ h1, h2 {
         margin-bottom: 4em;
     }
 
-    .card-red {
-        margin: 0 auto;
+    .card-cyan {
+        position: absolute;
+        top: 400px;
+        left: 120px;
     }
-    
+
+    .card-red,
     .card-orange {
         margin: 0 auto;
+        margin-bottom: 1.5em;
+    }
+
+    .card-blue {
+        position: absolute;
+        top: 400px;
+        right: 120px;
     }
 
  }

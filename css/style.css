@@ -94,6 +94,8 @@ footer {
 
     .card-flex {
         width: 1000px;
+        max-width: 1000px;
+        position: relative;
     }
 
     
@@ -114,8 +116,8 @@ footer {
 
     .card-cyan {
         position: absolute;
-        top: 400px;
-        left: 160px;
+        top: 138px;
+        left: -49px;
     }
 
     .card-red,
@@ -126,8 +128,8 @@ footer {
 
     .card-blue {
         position: absolute;
-        top: 400px;
-        right: 160px;
+        top: 138px;
+        right:-49px;
     }
 
  }
